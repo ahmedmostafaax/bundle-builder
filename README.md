@@ -1,16 +1,69 @@
-# React + Vite
+# 🏗️ Bundle Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multi-step product bundle builder built with React + TailwindCSS.  
+Users can assemble a security system by selecting products across 4 steps, with a live review panel that updates in real-time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- ✅ **4-step accordion builder** (Cameras → Plan → Sensors → Protection)
+- ✅ **Live review panel** with real-time totals
+- ✅ **Variant selection** (e.g., White/Black) with independent quantities
+- ✅ **Quantity steppers** synced between builder and review panel
+- ✅ **Save system** to localStorage with toast notifications
+- ✅ **Saved systems page** to load or delete previous configurations
+- ✅ **Fully responsive** (mobile to desktop)
+- ✅ **Persistent state** via localStorage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (Vite)
+- **TailwindCSS** (v3)
+- **React Router** (for Saved Systems page)
+- **react-hot-toast** (for notifications)
+- **localStorage** (for persistence)
+
+---
+
+## 📦 Installation & Run Instructions
+
+### 1. Clone the repository
+----
+-Install dependencies 
+npm install
+----
+-Start the development server
+npm run dev
+---- 
+-Build for production
+npm run build
+--- 
+-src/
+├── components/
+│   ├── Builder/
+│   │   ├── Builder.jsx
+│   │   ├── Step.jsx
+│   │   └── ProductCard.jsx
+│   ├── ReviewPanel/
+│   │   ├── ReviewPanel.jsx
+│   │   └── ReviewItem.jsx
+│   └── common/
+│       ├── QuantityStepper.jsx
+│       └── VariantSelector.jsx
+├── hooks/
+│   └── useBundleState.js
+├── pages/
+│   └── SavedSystems.jsx
+├── data/
+│   └── products.json
+├── App.jsx
+├── main.jsx
+└── index.cssProject Structure
+
+
+```bash
+git clone https://github.com/YourUsername/bundle-builder.git
+cd bundle-builder
