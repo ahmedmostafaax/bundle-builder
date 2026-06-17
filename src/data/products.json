@@ -1,0 +1,124 @@
+{
+  "steps": [
+    {
+      "id": 1,
+      "title": "Choose your cameras",
+      "icon": "📷",
+      "products": [
+        {
+          "id": "waye-cam-v4",
+          "name": "Waye Cam v4",
+          "image": "https://images.unsplash.com/photo-1582139329536-e7284fece509?w=400&h=400&fit=crop",
+          "description": "The closest Waye Cam ever made. Looks like a DSLR.",
+          "badge": null,
+          "compareAtPrice": 499.00,
+          "price": 349.00,
+          "variants": [
+            { "id": "white", "label": "White", "color": "#FFFFFF" },
+            { "id": "black", "label": "Black", "color": "#000000" }
+          ]
+        },
+        {
+          "id": "camera-outdoor",
+          "name": "Outdoor Camera",
+          "image": "https://images.unsplash.com/photo-1557324232-a8919f8a1e1c?w=400&h=400&fit=crop",
+          "description": "Weatherproof with 4K resolution",
+          "badge": "Save 22%",
+          "compareAtPrice": 299.99,
+          "price": 249.99,
+          "variants": [
+            { "id": "white", "label": "White", "color": "#FFFFFF" },
+            { "id": "black", "label": "Black", "color": "#000000" }
+          ]
+        },
+        {
+          "id": "doorbell",
+          "name": "Video Doorbell",
+          "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=400&fit=crop",
+          "description": "See and speak to visitors",
+          "badge": "Save 15%",
+          "compareAtPrice": 149.99,
+          "price": 127.49,
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Choose your plan",
+      "icon": "📋",
+      "products": [
+        {
+          "id": "plan-basic",
+          "name": "Basic Plan",
+          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=400&fit=crop",
+          "description": "30-day video history",
+          "badge": null,
+          "price": 9.99,
+          "variants": []
+        },
+        {
+          "id": "plan-premium",
+          "name": "Premium Plan",
+          "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=400&fit=crop",
+          "description": "60-day video history + advanced AI",
+          "badge": "Most Popular",
+          "price": 19.99,
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Choose your sensors",
+      "icon": "📡",
+      "products": [
+        {
+          "id": "sensor-motion",
+          "name": "Motion Sensor",
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f0f2?w=400&h=400&fit=crop",
+          "description": "Detects movement up to 30ft",
+          "badge": null,
+          "price": 39.99,
+          "variants": []
+        },
+        {
+          "id": "sensor-door",
+          "name": "Door/Window Sensor",
+          "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=400&fit=crop",
+          "description": "Monitor entry points",
+          "badge": "Save 10%",
+          "compareAtPrice": 29.99,
+          "price": 26.99,
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Add extra protection",
+      "icon": "🛡️",
+      "products": [
+        {
+          "id": "protection-water",
+          "name": "Water Leak Sensor",
+          "image": "https://images.unsplash.com/photo-1585714387098-75254e14c6b9?w=400&h=400&fit=crop",
+          "description": "Detect leaks and prevent damage",
+          "badge": null,
+          "price": 34.99,
+          "variants": []
+        },
+        {
+          "id": "protection-smoke",
+          "name": "Smoke/CO Detector",
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=400&fit=crop",
+          "description": "Early warning for fire and carbon monoxide",
+          "badge": "Save 20%",
+          "compareAtPrice": 49.99,
+          "price": 39.99,
+          "variants": []
+        }
+      ]
+    }
+  ]
+}
